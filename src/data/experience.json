@@ -1,0 +1,55 @@
+{
+  "experience": [
+    {
+      "id": 0,
+      "link": "https://www.kundaliniextracts.com/",
+      "logo": "K",
+      "company": "Kundalini",
+      "title": "Web Developer",
+      "dateFrom": "2020",
+      "dateTo": "2021",
+      "info": [
+        "Primary web developer for inital release",
+        "Maintain the companie's other website with Wordpress (cascadebeneficialdistributor.com)"
+      ],
+      "stack": ["WIX", "Wordpress"],
+      "logoheight": 80,
+      "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
+      "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
+    },
+    {
+      "id": 1,
+      "link": "",
+      "logo": "RT",
+      "company": "Rosewood Tech",
+      "title": "Founder",
+      "dateFrom": "August 2020",
+      "dateTo": "Current",
+      "info": [
+        "Developer tools, educational resources, and games",
+        "Web design, video production, curriculum design"
+      ],
+      "stack": ["Javascript", "Youtube", "Marketing"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
+      "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+    },
+    {
+      "id": 2,
+      "link": "https://www.bettertogether.group",
+      "logo": "BT",
+      "company": "Better Together",
+      "title": "Front-end Developer",
+      "dateFrom": "June 2021",
+      "dateTo": "Current",
+      "info": [
+        "Interface design, media and customer engagement.",
+        "Big fixes and maintenance"
+      ],
+      "stack": ["React", "Design", "UI/UX"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
+      "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "skillName": "Front-End Design",
+      "amount": "95"
+    },
+    {
+      "id": 1,
+      "skillName": "React Hooks",
+      "amount": "95"
+    },
+    {
+      "id": 2,
+      "skillName": "Javascript",
+      "amount": "90"
+    },
+    { "id": 3, "skillName": "Google", "amount": "85" },
+    {
+      "id": 4,
+      "skillName": "Linux",
+      "amount": "80"
+    },
+    {
+      "id": 5,
+      "skillName": "NEXT js",
+      "amount": "75"
+    },
+    { "id": 6, "skillName": "Apollo", "amount": "70" },
+    {
+      "id": 7,
+      "skillName": "WIX",
+      "amount": "75"
+    },
+    {
+      "id": 8,
+      "skillName": "Backend",
+      "amount": "60"
+    }
+  ]
+}
