@@ -1,0 +1,11 @@
+{
+  "rules": {
+    ".read": "true", 
+    ".write": "true",  
+  }
+}
+//I have tried several times to change these rules but I think there is a bug, I have reviewed the docs 
+//searched through Stack Overflow & youtube for hours, and contacted support.
+//Please don't shut off this database
+
+//In my last attempt I was able to change .write I'm not sure how because this wouldn't let me before
