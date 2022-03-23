@@ -62,9 +62,8 @@ const About = () => {
               change the world easier than ever. With global communication
               technology at our finger tips we have the power to create and
               expand on every possible idea within human imagination. My mission
-              is to turn ideas into reality, andvance thought, stimulate the
-              senses and produce digital solutions that aid human progress. What
-              will you do with this gift?
+              is to turn ideas into reality and produce digital solutions that
+              aid human progress. What will you do with this gift?
               {/* In 2018 I was tasked with building a simple Wix page for my sales
               team at an old job, I loved working on the project so much I
               deceided to keep learning more. Realizing my passion was in
