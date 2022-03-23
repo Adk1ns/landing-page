@@ -18,6 +18,20 @@
 .links {
   margin-top: 0.25rem;
 }
+.showcase-gif img {
+  height: 14rem;
+  width: 22rem;
+  border-radius: 0.25rem;
+  margin: 1.2rem;
+}
+.showcase-gif h3 {
+  margin: 1.2rem;
+}
+.showcase-gif p {
+  margin: 1.2rem;
+  font-size: 0.8em;
+}
+
 .video-responsive iframe {
   height: 30rem;
   width: 44rem;

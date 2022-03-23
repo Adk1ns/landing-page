@@ -49,7 +49,7 @@ module.exports = {
           size: 17,
           duration: 1,
           opacity: 0.8,
-          speed: 2,
+          speed: 1,
         },
       },
     },

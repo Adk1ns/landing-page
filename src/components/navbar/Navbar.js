@@ -38,8 +38,8 @@ const Navbar = () => {
           </Link>
         </div> */}
         <div className="navlink-wrapper">
-          <Link to="contact" spy={true} smooth={true} duration={500}>
-            VIDEO
+          <Link to="showcase" spy={true} smooth={true} duration={500}>
+            SHOWCASE
           </Link>
         </div>
       </div>

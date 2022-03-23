@@ -46,10 +46,9 @@ const About = () => {
                     'learning new things',
                     'exploring new places',
                     'solving complex problems',
-                    'all water sports',
                     'creating visually stimulating apps',
                     'trying new things',
-                    'rocking out with my garage band',
+                    'building new things',
                     'collaborating with others',
                   ],
                   autoStart: true,
@@ -59,11 +58,18 @@ const About = () => {
               <p>.</p>
             </div>
             <p>
-              In 2018 I was tasked with building a simple Wix page for my sales
+              To live in the information age is a gift, we have the power to
+              change the world easier than ever. With global communication
+              technology at our finger tips we have the power to create and
+              expand on every possible idea within human imagination. My mission
+              is to turn ideas into reality, andvance thought, stimulate the
+              senses and produce digital solutions that aid human progress. What
+              will you do with this gift?
+              {/* In 2018 I was tasked with building a simple Wix page for my sales
               team at an old job, I loved working on the project so much I
               deceided to keep learning more. Realizing my passion was in
               creating rather than sales; I decided to take the leap and become
-              a full time web engineer.{' '}
+              a full time web engineer.{' '} */}
             </p>
             <div className="location-wrapper">
               <svg
@@ -80,7 +86,7 @@ const About = () => {
                   d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"
                 ></path>
               </svg>
-              <p>Portland, Oregon</p>
+              <p>Portland, Oregon & Remote</p>
             </div>
           </div>
         </Fade>

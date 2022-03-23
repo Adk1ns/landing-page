@@ -2,12 +2,15 @@ import React from 'react'
 import './Contact.css'
 import Section from '../section/Section'
 import { Bounce } from 'react-reveal'
+import creationloop from '../../images/creationLoop.gif'
+import leaderboard from '../../images/leaderboard.gif'
+import luckDemo from '../../images/luckDemo.gif'
 
 const Contact = () => {
   return (
-    <Section title="Video">
+    <Section title="Showcase">
       {/* <ContactForm /> */}
-      <h4 className="links">Get to know me...</h4>
+      <h4 className="links">Samples of my work</h4>
       <Bounce cascade>
         <div className="links">
           {/* <a
@@ -24,7 +27,8 @@ const Contact = () => {
           >
             <img src={linkedin} alt="Linkedin Logo" width="40px" />
           </a> */}
-          <div className="video-responsive">
+
+          {/* <div className="video-responsive">
             <iframe
               src="https://youtube.com/embed/DAkl_UXsw-w"
               frameBorder="0"
@@ -32,6 +36,34 @@ const Contact = () => {
               allowFullScreen
               title="Embedded youtube"
             />
+          </div> */}
+
+          <div className="showcase">
+            <div className="showcase-gif">
+              <a href="https://bettertogether.group/" target="_blank">
+                <img className="showcase-gif" src={leaderboard} />
+              </a>
+              <h3>Leaderboard</h3>
+              <p>Group score board for Better Together</p>
+            </div>
+          </div>
+          <div className="showcase">
+            <div className="showcase-gif">
+              <a href="https://github.com/Adk1ns/color-app" target="_blank">
+                <img className="showcase-gif" src={luckDemo} />
+              </a>
+              <h3>React Surfer</h3>
+              <p>Chance based game built in React</p>
+            </div>
+          </div>
+          <div className="showcase">
+            <div className="showcase-gif">
+              <a href="https://bettertogether.group/" target="_blank">
+                <img className="showcase-gif" src={creationloop} />
+              </a>
+              <h3>Creation Loop</h3>
+              <p>Productivity management for Better Together</p>
+            </div>
           </div>
         </div>
       </Bounce>
