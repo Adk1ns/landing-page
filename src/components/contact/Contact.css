@@ -18,6 +18,11 @@
 .links {
   margin-top: 0.25rem;
 }
+@media screen and (max-width: 1190px) {
+  .links {
+    flex-wrap: wrap;
+  }
+}
 .showcase-gif img {
   height: 14rem;
   width: 22rem;
