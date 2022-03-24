@@ -66,7 +66,7 @@ const Contact = () => {
                 <img
                   className="showcase-gif"
                   src={creationloop}
-                  alt="better together"
+                  alt="Better Together Link"
                 />
               </a>
               <h3>Creation Loop</h3>

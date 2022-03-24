@@ -41,6 +41,7 @@ const About = () => {
                 I love
               </p>
               <Typewriter
+                aria-hidden="true"
                 options={{
                   strings: [
                     'learning new things',
