@@ -48,17 +48,7 @@ const Home = () => {
                 }}
               />
             </h1>
-            <Bounce cascade>
-              <div className="links">
-                <a
-                  href="https://www.linkedin.com/in/mjigalin/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {/* <img src={linkedin} alt="Linkedin Logo" width="50px" /> */}
-                </a>
-              </div>
-            </Bounce>
+            <Bounce cascade></Bounce>
             <div className="scroll-down">
               <Link
                 activeClass="active"
