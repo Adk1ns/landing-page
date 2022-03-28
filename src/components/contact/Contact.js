@@ -70,7 +70,7 @@ const Contact = () => {
                 />
               </a>
               <h3>Creation Loop</h3>
-              <p>Productivity management for Better Together</p>
+              <p>Productivity tools for Better Together</p>
             </div>
           </div>
         </div>
