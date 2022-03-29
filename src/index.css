@@ -25,11 +25,11 @@ code {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: darkgreen;
-  border-radius: 8px;
+  background: #1c558e;
+  border-radius: 6px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: green;
+  background: #0899ba;
 }

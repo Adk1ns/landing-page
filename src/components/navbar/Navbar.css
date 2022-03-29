@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   background-color: #23252a;
-  border-bottom: 3px solid #0be779;
+  border-bottom: 3px solid #0899ba;
   pointer-events: fill;
 }
 .navbar a {
@@ -20,6 +20,9 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+}
+.navlink-wrapper:hover {
+  color: #a9d6e5;
 }
 #hamburger-icon {
   width: 35px;

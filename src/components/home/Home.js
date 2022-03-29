@@ -9,7 +9,6 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
 import config from '../../config'
 import profile from '../../images/IMG_1338.jpg'
-import linkedin from '../../images/social/linkedin.png'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -20,7 +19,7 @@ const Home = () => {
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
           <Fade bottom distance="40px">
             <img
-              className="profile"
+              className="profile-pic"
               alt="Jered's profile"
               src={profile}
               onLoad={() => setImageLoaded(true)}

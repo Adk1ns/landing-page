@@ -33,11 +33,7 @@ const Experience = () => {
                   href="https://github.com/Adk1ns"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    textDecoration: 'none',
-                    color: '#0be779',
-                    cursor: 'pointer',
-                  }}
+                  className="exp-links"
                 >
                   Github
                 </a>
@@ -50,11 +46,7 @@ const Experience = () => {
                 href="https://www.linkedin.com/in/jered-adkins-886457112/"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{
-                  textDecoration: 'none',
-                  color: '#0be779',
-                  cursor: 'pointer',
-                }}
+                className="exp-links"
               >
                 LinkedIn
               </a>

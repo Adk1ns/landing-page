@@ -71,7 +71,7 @@ const About = () => {
               creating rather than sales; I decided to take the leap and become
               a full time web engineer.{' '} */}
             </p>
-            <div className="location-wrapper">
+            <div className="bar-asth">
               <svg
                 className="octicon octicon-location"
                 viewBox="0 0 16 16"
@@ -81,12 +81,12 @@ const About = () => {
                 aria-hidden="true"
               >
                 <path
-                  fill="white"
+                  fill="#0899ba"
                   fillRule="evenodd"
                   d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"
                 ></path>
               </svg>
-              <p>Portland, Oregon & Remote</p>
+              <p className="mx-1">Portland, Oregon & Remote</p>
             </div>
           </div>
         </Fade>

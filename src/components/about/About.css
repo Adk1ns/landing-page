@@ -25,11 +25,14 @@
   color: #0be779;
   cursor: pointer;
 }
-.location-wrapper {
+.mx-1 {
+  margin-left: 0.75rem;
+}
+.bar-asth {
   display: flex;
   align-items: center;
-  border-top: 1px solid white;
-  width: 70%;
+  border-top: 1px solid #0899ba;
+  width: 75%;
 }
 .skills-wrapper {
   position: relative;
@@ -59,8 +62,8 @@
   display: flex;
   flex-direction: column;
   height: 37px;
-  background-color: #0be779;
-  border-radius: 2px 0px 0px 2px;
+  background-color: #0899ba;
+  border-radius: 5px 0px 0px 5px;
 }
 @media screen and (min-width: 960px) {
   .about-content {
@@ -96,10 +99,10 @@
     align-items: center;
     border-radius: 2px 0px 0px 2px;
     left: 0;
-    width: 80px;
-    height: 30px;
+    width: 90px;
+    height: 100%;
     font-size: 12px;
-    background-color: #39b175;
+    background-color: #3e4555;
     font-weight: 600;
     color: white;
   }
@@ -121,10 +124,10 @@
     align-items: center;
     border-radius: 2px 0px 0px 2px;
     left: 0;
-    width: 65px;
-    height: 30px;
+    width: 70px;
+    height: 100%;
     font-size: 10px;
-    background-color: #39b175;
+    background-color: #3e4555;
     font-weight: 600;
     color: white;
   }
