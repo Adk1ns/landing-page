@@ -26,9 +26,16 @@
 }
 
 .textLink {
-  color: #0be779;
+  color: #3fc1c0;
   cursor: pointer;
 }
 .par-padding {
   padding-right: 1rem;
+}
+
+.exp-links {
+  text-decoration: none;
+  color: #48cae4;
+  cursor: pointer;
+  font-size: 1.2em;
 }

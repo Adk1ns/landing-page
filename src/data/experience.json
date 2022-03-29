@@ -20,7 +20,7 @@
     {
       "id": 1,
       "link": "https://www.youtube.com/channel/UCFrfXhIslm7pIEQ9v__kMYg",
-      "logo": "RT",
+      "logo": "RWT",
       "company": "Rosewood Tech",
       "title": "Founder",
       "dateFrom": "August 2020",
@@ -31,8 +31,8 @@
       ],
       "stack": ["Javascript", "Youtube", "Marketing"],
       "logowidth": 80,
-      "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
-      "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+      "colourPrimary": "linear-gradient(to bottom, #ef233c, #b21e35)",
+      "colourSecondary": "linear-gradient(to bottom, #ef233c, #b21e35)"
     },
     {
       "id": 2,
@@ -48,8 +48,8 @@
       ],
       "stack": ["React", "Design", "UI/UX"],
       "logowidth": 80,
-      "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
-      "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
+      "colourPrimary": "linear-gradient(to bottom, #39b175, #2b9348)",
+      "colourSecondary": "linear-gradient(to bottom, #39b175, #2b9348)"
     }
   ]
 }
