@@ -23,10 +23,10 @@
     flex-wrap: wrap;
   }
 }
-/* //test comment */
+
 .showcase-gif img {
-  height: 14rem;
-  width: 22rem;
+  height: 12rem;
+  width: 19rem;
   border-radius: 0.25rem;
   margin: 1.2rem;
 }
