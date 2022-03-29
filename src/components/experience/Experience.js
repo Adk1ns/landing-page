@@ -5,6 +5,7 @@ import Section from '../section/Section'
 import ExperienceCard from '../experienceCard/ExperienceCard'
 import experienceData from '../../data/experience.json'
 
+//TODO: link issue on RT
 const Experience = () => {
   return (
     <Section title="Experience">

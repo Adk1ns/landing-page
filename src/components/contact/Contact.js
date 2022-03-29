@@ -41,7 +41,11 @@ const Contact = () => {
           <div className="showcase">
             <div className="showcase-gif">
               <a href="https://bettertogether.group/" target="_blank">
-                <img className="showcase-gif" src={leaderboard} />
+                <img
+                  className="showcase-gif"
+                  src={leaderboard}
+                  alt="Better Together"
+                />
               </a>
               <h3>Leaderboard</h3>
               <p>Group score board for Better Together</p>
@@ -50,7 +54,7 @@ const Contact = () => {
           <div className="showcase">
             <div className="showcase-gif">
               <a href="https://github.com/Adk1ns/color-app" target="_blank">
-                <img className="showcase-gif" src={colorsApp} />
+                <img className="showcase-gif" src={colorsApp} alt="Git hub" />
               </a>
               <h3>Color Picker App</h3>
               <p>A color picker currently in development</p>
@@ -59,10 +63,14 @@ const Contact = () => {
           <div className="showcase">
             <div className="showcase-gif">
               <a href="https://bettertogether.group/" target="_blank">
-                <img className="showcase-gif" src={creationloop} />
+                <img
+                  className="showcase-gif"
+                  src={creationloop}
+                  alt="Better Together Link"
+                />
               </a>
               <h3>Creation Loop</h3>
-              <p>Productivity management for Better Together</p>
+              <p>Productivity tools for Better Together</p>
             </div>
           </div>
         </div>
