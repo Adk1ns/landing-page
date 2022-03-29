@@ -77,15 +77,15 @@
     align-items: center;
     border-radius: 2px 0px 0px 2px;
     left: 0;
-    width: 88px;
-    height: 37px;
+    width: 90px;
+    height: 38px;
     font-size: 14px;
     background-color: #3e4555;
     font-weight: 600;
     color: white;
   }
 }
-@media screen and (max-width: 959px) and (min-width: 600px) {
+@media screen and (max-width: 958px) and (min-width: 600px) {
   .about-content {
     display: flex;
     flex-direction: column;
@@ -107,7 +107,7 @@
     color: white;
   }
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 598px) {
   .about-content {
     display: flex;
     flex-direction: column;
