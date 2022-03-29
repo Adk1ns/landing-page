@@ -10,7 +10,6 @@ const Contact = () => {
   return (
     <Section title="Showcase">
       {/* <ContactForm /> */}
-      <h4 className="links">Samples of my work</h4>
       <Bounce cascade>
         <div className="links">
           {/* <a
