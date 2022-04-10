@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import Typewriter from 'typewriter-effect'
 import { Link } from 'react-scroll'
-import { Fade } from 'react-reveal'
+// import { Fade } from 'react-reveal'
 import Section from '../section/Section'
 import Skills from '../skills/Skills'
 
@@ -10,7 +10,7 @@ const About = () => {
   return (
     <Section title="About">
       <div className="about-content">
-        <Fade duration={1000}>
+        {/*<Fade duration={1000}>*/}
           <div className="about-text">
             <h2>What do I do?</h2>
             <p>
@@ -89,7 +89,7 @@ const About = () => {
               <p className="mx-1">Portland, Oregon & Remote</p>
             </div>
           </div>
-        </Fade>
+        {/*</Fade>*/}
         <Skills />
       </div>
     </Section>

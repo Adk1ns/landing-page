@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import Section from '../section/Section'
-import { Bounce } from 'react-reveal'
+// import { Bounce } from 'react-reveal'
 import creationloop from '../../images/creationLoop.gif'
 import leaderboard from '../../images/leaderboard.gif'
 import colorsApp from '../../images/colors.gif'
@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <Section title="Showcase">
       {/* <ContactForm /> */}
-      <Bounce cascade>
+      {/*<Bounce cascade>*/}
         <div className="links">
           {/* <a
             href="https://github.com/Adk1ns"
@@ -73,7 +73,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </Bounce>
+      {/*</Bounce>*/}
     </Section>
   )
 }
