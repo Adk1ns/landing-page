@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './Home.css'
 import Fade from 'react-reveal/Fade'
-import { Bounce } from 'react-reveal'
-import { Link } from 'react-scroll'
-import Particles from 'react-particles-js'
+// import { Bounce } from 'react-reveal'
+// import { Link } from 'react-scroll'
+// import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className="home-wrapper">
       <div className="home">
-        <Particles className="particles" params={config.particles} />
+        {/*<Particles className="particles" params={config.particles} />*/}
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
           <Fade bottom distance="40px">
             <img
@@ -47,21 +47,21 @@ const Home = () => {
                 }}
               />
             </h1>
-            <Bounce cascade></Bounce>
+            {/*<Bounce cascade></Bounce>*/}
             <div className="scroll-down">
-              <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-63}
-                duration={500}
-              >
-                <ArrowDropDownCircleIcon
-                  fontSize="large"
-                  style={{ pointerEvents: 'fill', cursor: 'pointer' }}
-                />
-              </Link>
+              {/*<Link*/}
+              {/*  activeClass="active"*/}
+              {/*  to="about"*/}
+              {/*  spy={true}*/}
+              {/*  smooth={true}*/}
+              {/*  offset={-63}*/}
+              {/*  duration={500}*/}
+              {/*>*/}
+              {/*  <ArrowDropDownCircleIcon*/}
+              {/*    fontSize="large"*/}
+              {/*    style={{ pointerEvents: 'fill', cursor: 'pointer' }}*/}
+              {/*  />*/}
+              {/*</Link>*/}
             </div>
           </Fade>
         </div>
